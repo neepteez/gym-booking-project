@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Class</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Book a Class</h1>
+    <nav>
+      <a href="index.html">Classes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Booking Form</h2>
+
+      <form id="booking-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" required placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" required placeholder="you@example.com">
+
+        <label for="class-select">Choose Class</label>
+        <select id="class-select" required>
+          <option value="">--Select a class--</option>
+          <option value="hiit">HIIT Training</option>
+          <option value="yoga">Yoga Flow</option>
+        </select>
+
+        <button type="submit">Confirm Booking</button>
+      </form>
+
+      <p id="confirmation" style="margin-top:20px; font-weight:bold;"></p>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Gym Booking System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
